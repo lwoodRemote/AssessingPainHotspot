@@ -66,9 +66,9 @@
    
      document.querySelector('#txt_06').textContent = data.text_06;
 
-     document.querySelector('#hd_06').textContent = data.head_07;
+     document.querySelector('#hd_07').textContent = data.head_07;
    
-     document.querySelector('#txt_06').textContent = data.text_07;
+     document.querySelector('#txt_07').textContent = data.text_07;
 
  
    })
