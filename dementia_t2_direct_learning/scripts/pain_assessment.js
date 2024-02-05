@@ -70,6 +70,10 @@
    
      document.querySelector('#txt_07').textContent = data.text_07;
 
+     document.querySelector('#hd_08').textContent = data.head_08;
+   
+     document.querySelector('#txt_08').textContent = data.text_08;
+
  
    })
    
@@ -92,6 +96,8 @@
     articles[5].style.display = 'block';
 
     articles[6].style.display = 'block';
+
+    articles[7].style.display = 'block';
 
     // call the content function and enter in the jsonfile as the parameter
         
