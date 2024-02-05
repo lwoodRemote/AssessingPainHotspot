@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset = "UTF-8">
+
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+
+    <title> Environment </title>
+
+    <!-- STYLE LINKS -->
+    
+    <link href = "https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel = "stylesheet">
+    
+    
+    <link rel = "stylesheet" href = "style.css" type = "text/css">
+
+    <link rel = "stylesheet" href = "hotspot_round.css" type = "text/css">
+
+  </head>
+
+  <body>
+
+    <main>
+      
+      <img src = "../dementia_t2_direct_learning/image/painasses.jpeg" alt = "floorimage">
+      
+      <!-- **HOTSPOTS** -->
+
+
+      <!-- Hotspot 0 round -->
+
+      <button class = "hotspot_round" onclick = 'open_pop(), show_articles()'>
+        
+        <div class = "spot_round"> </div>
+      
+      </button>
+
+      <!-- *** AUDIO ***-->
+    
+
+
+      <audio controls>
+        
+        <source src = "../dementia_t2_direct_learning/audio/Pain_Assessment.mp3">
+  
+      </audio>
+
+      
+      <!--*** POP UP ***-->
+      
+      
+      <div id = "popup_display" class = "popup_block" >
+            
+      <div class = "popup_content">
+
+        <button id = "closeup_btn" onclick = 'close_pop()'> Close</button>
+
+        <section>
+
+            <article>
+
+              <h2 id = "hd_01">With Self Capacity: </h2> 
+        
+              <p id = "txt_01" class = "text"></p>
+
+              <br><br>
+            
+            </article>
+        
+        
+            <article>
+              
+              <h2 id="hd_02">Self Report |</h2> 
+        
+              <p id="txt_02" class = "text">If possible, always ask the patient with dementia about their pain, a person’s self-report is the most reliable measure. If this is not possible, try using the people around them who know them best to discuss whether their behaviour is normal. Any change from the norm could be due to underlying pain.</p>
+
+              <br><br>
+            
+            </article>
+        
+        
+            <article>
+              
+              <h2 id="hd_03">Short Questions |</h2> 
+        
+              <p id="txt_03" class = "text">Keep questions short, simple and precise. For example, 'Do you have pain?', 'Does it hurt here?'</p>
+
+              <br><br><br>
+            
+            </article>
+
+            <p></p>
+        
+        
+            <article>
+
+              
+              <h2 id = "hd_04">Without Self Capacity:</h2> 
+        
+              <p id = "txt_04" class = "text"></p>
+
+              <br><br>
+            
+            </article>
+
+            <article>
+
+              
+                <h2 id = "hd_05">Non-Verbal Prompts |</h2> 
+          
+                <p id = "txt_05" class = "text">Use non-verbal prompts like pointing or touching to communicate pain points in the patient. This can be on yourself, on the patient (with consent) or by using visual aids. For example, pointing to the patient's arm or gently touching their wrist to see if there is a reaction. Alternatively, the Wong-Baker Pain Scale is a good example of using point to assess pain when the patient cannot verbally communicate this.</p>
+  
+                <br><br>
+              
+              </article>
+
+              <article>
+
+              
+                <h2 id = "hd_06">Non-Verbal Assessment |</h2> 
+          
+                <p id = "txt_06" class = "text">If you think that the patient cannot verbally discuss their pain, try observing their behaviour and using non verbal clues. Examples of this are: grimacing facial expressions, moaning with movement and distressing changes in behaviour. The Abbey Pain Scale and for advanced dementia - the Pain Assessment in Advanced Dementia Scale (PAINAD) are good examples of a tools to use to assess non-verbal patients.</p>
+  
+                <br><br>
+              
+              </article>
+
+
+
+          </section>
+        
+        </div>
+      
+      </div>
+
+    </main>
+
+    </script>
+
+    <script src = "../dementia_t2_direct_learning/scripts/pain_assessment.js" type = "text/javascript"></script>
+
+    <script src = "../dementia_t2_direct_learning/scripts/script_popup.js" type = "text/javascript"></script>
+
+  </body>
+
+</html>

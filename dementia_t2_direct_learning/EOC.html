@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset = "UTF-8">
+
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+
+    <title> Environment </title>
+
+    <!-- STYLE LINKS -->
+    
+    <link href = "https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel = "stylesheet">
+    
+    
+    <link rel = "stylesheet" href = "style.css" type = "text/css">
+
+    <link rel = "stylesheet" href = "hotspot_round.css" type = "text/css">
+
+  </head>
+
+  <body>
+
+    <main>
+      
+      <img src = "../dementia_t2_direct_learning/image/EOC.jpeg" alt = "floorimage">
+      
+      <!-- **HOTSPOTS** -->
+
+
+      <!-- Hotspot 0 round -->
+
+      <button class = "hotspot_round" onclick = 'open_pop(), show_articles()'>
+        
+        <div class = "spot_round"> </div>
+      
+      </button>
+
+      <!-- *** AUDIO ***-->
+    
+
+
+      <audio controls>
+        
+        <source src = "../dementia_t2_direct_learning/audio/EOC_on_the_phone_dementia.mp3">
+  
+      </audio>
+
+      
+      <!--*** POP UP ***-->
+      
+      
+      <div id = "popup_display" class = "popup_block" >
+            
+      <div class = "popup_content">
+
+        <button id = "closeup_btn" onclick = 'close_pop()'> Close</button>
+
+        <section>
+
+            <article>
+
+              <h2 id = "hd_01">Assumptions |</h2> 
+        
+              <p id = "txt_01" class = "text">Where possible, always speak directly to the patient and do not assume that they cannot communicate for themselves or be successfully triaged due to their dementia diagnosis.</p>
+
+              <br><br>
+            
+            </article>
+        
+        
+            <article>
+              
+              <h2 id="hd_02">Adapt |</h2> 
+        
+              <p id="txt_02" class = "text">Remain calm and show patience throughout the call; adjusting speed and tone to suit the callers needs. Getting frustrated or abrupt can discourage communication.</p>
+
+              <br><br>
+            
+            </article>
+        
+        
+            <article>
+              
+              <h2 id="hd_03">Speech |</h2> 
+        
+              <p id="txt_03" class = "text">Slow your rate of speech and avoid giving too many instructions at once. Instead, speak slowly and clearly whilst breaking large pieces of information into smaller chunks.</p>
+
+              <br><br>
+
+            </article>
+
+            <p></p>
+        
+        
+            <article>
+
+              
+              <h2 id = "hd_04">Personalisation |</h2> 
+        
+              <p id = "txt_04" class = "text">In conversation, use the patients name to personalise conversation help to retain focus; regularly checking that there is a mutual understanding of what you are trying to convey. </p>
+
+              <br><br>
+            
+            </article>
+
+            <article>
+
+              
+                <h2 id = "hd_05">Large pieces of information |</h2> 
+          
+                <p id = "txt_05" class = "text">Break down large pieces of information into smaller chunks; confirming with the patient that there is mutual understanding of what is being communicated.</p>
+  
+                <br><br>
+              
+              </article>
+
+              <article>
+
+              
+                <h2 id = "hd_06">Engage |</h2> 
+          
+                <p id = "txt_06" class = "text">Use speakerphone/loud speaker to engage with the patient and carer/family at the same time. If there is any confusion, then the carer/family member can help communicate this.</p>
+  
+                <br><br>
+              
+              </article>
+
+
+              <article>
+
+              
+                <h2 id = "hd_07">Listen |</h2> 
+          
+                <p id = "txt_07" class = "text">Allow time for the patient to think and reply, being careful not to interrupt their thinking process but also not leaving unnecessary long pauses.</p>
+  
+                <br><br>
+              
+              </article>
+
+              <article>
+
+              
+                <h2 id = "hd_08">Repetition |</h2> 
+          
+                <p id = "txt_08" class = "text">Rephrase questions as opposed to repeating them and answer questions even if they are repeated.</p>
+  
+                <br><br>
+              
+              </article>
+
+
+
+          </section>
+        
+        </div>
+      
+      </div>
+
+    </main>
+
+    </script>
+
+    <script src = "../dementia_t2_direct_learning/scripts/EOC.js" type = "text/javascript"></script>
+
+    <script src = "../dementia_t2_direct_learning/scripts/script_popup.js" type = "text/javascript"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,179 @@
+
+
+/* Have moved this section styling here as the overflow display in pop up differs for pin and round hotspot pages */
+
+section {
+
+    margin-top: 50px;
+
+    height: 60vh;
+
+    overflow: scroll;
+}
+
+/* HOT SPOT ROUND STYLING */
+
+
+.hotspot_round{
+
+    position: absolute;
+
+    top: 10%;
+
+    left: 5%;
+
+    width: 3.5vw;
+
+    height: auto;
+
+    border-radius: 50%;
+
+    border: 1px solid #ffffff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #005EB8;
+    
+    color: #ffffff;
+
+    text-align: center;
+
+    cursor: pointer;
+    
+    -webkit-user-select: none; /* Safari */
+    
+    -moz-user-select: none; /* Firefox */
+    
+    -ms-user-select: none; /* IE10+/Edge */
+    
+    user-select: none;
+
+    box-shadow:         2px 2px 1px  rgba(0,0,0,0.2);
+
+    -webkit-box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+
+    -moz-box-shadow:    2px 2px 1px rgba(0,0,0,0.2);
+}
+
+.hotspot_round1{
+
+    position: absolute;
+
+    top: 20%;
+
+    left: 5%;
+
+    width: 3.5vw;
+
+    height: auto;
+
+    border-radius: 50%;
+
+    border: 1px solid #ffffff;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #005EB8;
+    
+    color: #ffffff;
+
+    text-align: center;
+
+    cursor: pointer;
+    
+    -webkit-user-select: none; /* Safari */
+    
+    -moz-user-select: none; /* Firefox */
+    
+    -ms-user-select: none; /* IE10+/Edge */
+    
+    user-select: none;
+
+    box-shadow:         2px 2px 1px  rgba(0,0,0,0.2);
+
+    -webkit-box-shadow: 2px 2px 1px rgba(0,0,0,0.2);
+
+    -moz-box-shadow:    2px 2px 1px rgba(0,0,0,0.2);
+}
+
+
+.hotspot_round:after {
+    
+    content: "";
+
+    display: block;
+
+    padding-bottom: 100%;
+}
+
+.hotspot_round1:after {
+    
+    content: "";
+
+    display: block;
+
+    padding-bottom: 100%;
+}
+
+
+.spot_round {
+
+    width: 1.5vw;
+
+    height: 1.5vw;
+
+    transform: rotate(-45deg);
+
+    border-radius: 50%;
+
+    background-color:#ffffff;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 759px) {
+
+
+    .hotspot_round {
+
+        width:4vw;
+
+        box-shadow:         1px 1px 0px  rgba(0,0,0,0.2);
+
+        -webkit-box-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    
+        -moz-box-shadow:    1px 1px 0px rgba(0,0,0,0.2);
+    }
+
+    .hotspot_round1 {
+
+        width:4vw;
+
+        box-shadow:         1px 1px 0px  rgba(0,0,0,0.2);
+
+        -webkit-box-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    
+        -moz-box-shadow:    1px 1px 0px rgba(0,0,0,0.2);
+    }
+
+    .spot_round {
+
+        width: 1.8vw;
+
+        height: 1.8vw;
+    }
+
+
+  }

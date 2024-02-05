@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset = "UTF-8">
+
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+
+    <title> Environment </title>
+
+    <!-- STYLE LINKS -->
+    
+    <link href = "https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel = "stylesheet">
+    
+    
+    <link rel = "stylesheet" href = "style.css" type = "text/css">
+
+    <link rel = "stylesheet" href = "hotspot_round.css" type = "text/css">
+
+  </head>
+
+  <body>
+
+    <main>
+      
+      <img src = "../dementia_t2_direct_learning/image/delirium.jpeg" alt = "floorimage">
+      
+      <!-- **HOTSPOTS** -->
+
+
+      <!-- Hotspot 0 round -->
+
+      <button class = "hotspot_round" onclick = 'open_pop(), show_articles()'>
+        
+        <div class = "spot_round"> </div>
+      
+      </button>
+
+      <!-- *** AUDIO ***-->
+    
+
+
+      <audio controls>
+        
+        <source src = "../dementia_t2_direct_learning/audio/delirium.mp3">
+  
+      </audio>
+
+      
+      <!--*** POP UP ***-->
+      
+      
+      <div id = "popup_display" class = "popup_block" >
+            
+      <div class = "popup_content">
+
+        <button id = "closeup_btn" onclick = 'close_pop()'> Close</button>
+
+        <section>
+
+            <article>
+
+              <h2 id = "hd_01">Person:</h2> 
+        
+              <p id = "txt_01" class = "text"></p>
+
+            <br></br>
+            
+            </article>
+        
+        
+            <article>
+              
+              <h2 id="hd_02">Handling Patient |</h2> 
+        
+              <p id="txt_02" class = "text">Keep calm and reassure the patient, opposed to contradicting them - even if the conversation seems unusual.</p>
+
+              <br></br>
+            
+            </article>
+          
+        
+        
+            <article>
+              
+              <h2 id="hd_03">Reorientation |</h2> 
+        
+              <p id="txt_03" class = "text">Support the patient with reorientation, this can be explaining (re-explaining) who you are and what you are doing, or by making everything available and accessible to them, for example, telling them the date and time; making sure they have access to food/drink; can access any relevant personal aids like glasses or/and hearing aids.</p>
+
+              <br></br>
+
+            </article>
+
+        
+        
+            <article>
+
+              
+              <h2 id = "hd_04">Attention Test |</h2> 
+        
+              <p id = "txt_04" class = "text">You can conduct an attetnion test by having the patient count backwards from 20 - 1 or name months of the year backwards, in order to ascertain how well you hold their attention. </p>
+
+              <br></br><br>
+            
+            </article>
+
+            <article>
+
+              
+                <h2 id = "hd_05">Family: </h2> 
+          
+                <p id = "txt_05" class = "text"> </p>
+  
+                <br></br>
+
+              </article>
+
+              <article>
+
+              
+                <h2 id = "hd_06">Single Question in Delirium (SQID) | </h2> 
+          
+                <p id = "txt_06" class = "text">'Is this patient more confused than before?' / past 3 days / past 2 weeks.</p>
+  
+                <br></br>
+
+              </article>
+
+
+              <article>
+
+              
+                <h2 id = "hd_07">Third Person| </h2> 
+          
+                <p id = "txt_07" class = "text">Consider having a family-member / friend / carer present when talking to a patient with delirium to help calm them.</p>
+  
+                <br></br>
+              
+              </article>
+
+
+
+          </section>
+        
+        </div>
+      
+      </div>
+
+    </main>
+
+    </script>
+
+    <script src = "../dementia_t2_direct_learning/scripts/delirium.js" type = "text/javascript"></script>
+
+    <script src = "../dementia_t2_direct_learning/scripts/script_popup.js" type = "text/javascript"></script>
+
+  </body>
+
+</html>
